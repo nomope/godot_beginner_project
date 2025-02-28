@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://c43rev11shuqd"]
+[gd_scene load_steps=2 format=3 uid="uid://c43rev11shuqd"]
+
+[ext_resource type="Texture2D" uid="uid://dimarlxjbfdtq" path="res://icon.svg" id="1_ocd0u"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_ocd0u")
